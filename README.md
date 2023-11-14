@@ -1,6 +1,6 @@
 ## 0x16. C - Simple Shell ##
 
-- General: 
+General:
 - Who designed and implemented the original Unix operating system.
 - Who wrote the first version of the UNIX shell.
 - Who invented the B programming language (the direct predecessor to the C programming language).
@@ -16,4 +16,4 @@
 - How to suspend the execution of a process until one of its children terminates.
 - What is EOF / “end-of-file”?
 
-*This is a group project by Nur El-Mallah and Ahmed Ibrahim for alx. 
+*This is a group project by Nur El-Mallah and Ahmed Ibrahim for alx.
