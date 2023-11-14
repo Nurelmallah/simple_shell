@@ -16,4 +16,4 @@
 - How to suspend the execution of a process until one of its children terminates.
 - What is EOF / “end-of-file”?
 
-*This is a group project by Nur El-Mallah and Ahmed Ibrahim. 
+*This is a group project by Nur El-Mallah and Ahmed Ibrahim for alx. 
