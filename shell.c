@@ -14,6 +14,7 @@ int main(void)
 {
 	char input[MAX_INPUT_SIZE];
 	char *args[MAX_INPUT_SIZE];
+	size_t input_length;
 
 	while (1)
 	{
@@ -25,7 +26,7 @@ int main(void)
 			break;
 		}
 
-		size_t input_length = strlen(input);
+		input_length = strlen(input);
 
 		if (input_length > 0 && input[input_length - 1] == '\n')
 		{
