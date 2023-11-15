@@ -3,7 +3,7 @@
 #include <sys/wait.h>
 
 /**
- * execute_in_child - Executes the command in a child process.
+ * execute_in_child - used to execute the command in a child process.
  * @args: Array of command and arguments
  * @full_path: Full path to the command
  */
