@@ -20,9 +20,8 @@ void execute_in_child(char *args[], char *full_path);
 ssize_t read_buf(char *buf, size_t *len);
 
 /**
- * is_whitespace - Checks if a string consists only of whitespace characters
- * @str: The input string
- *
+ * is_whitespace - used to check if a string consists only of whitespace characters
+ * @str: The input string used
  * Return: 1 if the string is whitespace-only, 0 otherwise
  */
 int is_whitespace(const char *str);
