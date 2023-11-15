@@ -17,6 +17,7 @@ void execute_command(char *args[]);
 void search_and_execute(char *args[]);
 char *build_full_path(char *dir, char *command);
 void execute_in_child(char *args[], char *full_path);
+ssize_t read_buf(char *buf, size_t *len);
 
 /**
  * is_whitespace - Checks if a string consists only of whitespace characters
