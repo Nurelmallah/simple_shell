@@ -1,6 +1,7 @@
 #include "shell.h"
 #include <string.h>
 #include <unistd.h>
+#include <ctype.h>
 
 /**
  * main - Entry point of the shell program
@@ -38,9 +39,34 @@ int main(void)
 			break;
 		}
 
+		if (is_whitespace(input))
+		{
+			continue;
+		}
+
 		parse_input(input, args);
 		execute_command(args);
 	}
 
 	return (0);
+}
+
+/**
+ * is_whitespace - Checks if a string consists only of whitespace characters
+ * @str: The input string
+ *
+ * Return: 1 if the string is whitespace-only, 0 otherwise
+ */
+int is_whitespace(const char *str)
+
+{
+	while (*str != '\0')
+	{
+		if (!isspace((unsigned char)*str))
+		{
+			return (0);
+		}
+		str++;
+	}
+	return (1);
 }
