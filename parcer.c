@@ -2,10 +2,9 @@
 #include <string.h>
 
 /**
- * parse_input - Tokenizes input into arguments
+ * parse_input - Tokenizes the input into arguments
  * @input: User input string
- * @args: Array to store arguments
- *
+ * @args: Array in order to store arguments
  * This function takes a user input string and tokenizes it into
  * individual arguments, storing them in the provided array.
  */
