@@ -10,7 +10,6 @@
  * forks a child process, and executes the command in the child process.
  */
 void execute_command(char *args[])
-
 {
 	if (access(args[0], X_OK) == 0)
 	{
