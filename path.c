@@ -3,9 +3,9 @@
 #include <stdlib.h>
 
 /**
- * build_full_path - Builds the full path to a command.
+ * build_full_path - used to build the full path to a command.
  * @dir: Directory to search for the command
- * @command: Command to execute
+ * @command: Command to be executed
  * Return: The full path to the command
  */
 char *build_full_path(char *dir, char *command)
