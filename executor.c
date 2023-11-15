@@ -3,9 +3,8 @@
 #include <sys/wait.h>
 
 /**
- * execute_command - Executes the given command
+ * execute_command - it is used to execute the given command
  * @args: Array of command and arguments
- *
  * This function checks if the specified command is executable,
  * forks a child process, and executes the command in the child process.
  */
