@@ -5,7 +5,7 @@
 /**
  * build_full_path - used to build the full path to a command.
  * @dir: Directory to search for the command
- * @command: Command to be executed
+ * @command: The command to be executed
  * Return: The full path to the command
  */
 char *build_full_path(char *dir, char *command)
