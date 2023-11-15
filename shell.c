@@ -2,6 +2,8 @@
 #include <string.h>
 #include <unistd.h>
 #include <ctype.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - Entry point of the shell program
@@ -58,7 +60,6 @@ int main(void)
  * Return: 1 if the string is whitespace-only, 0 otherwise
  */
 int is_whitespace(const char *str)
-
 {
 	while (*str != '\0')
 	{
