@@ -5,8 +5,8 @@
 #include <stdlib.h>
 
 /**
- * search_and_execute - used to Searche for the command in the directories of the PATH
- * and execute it if found.
+ * search_and_execute - used to search for the command in the directories
+ * of PATH and execute it if found.
  * @args: Array of command and arguments
  */
 void search_and_execute(char *args[])
